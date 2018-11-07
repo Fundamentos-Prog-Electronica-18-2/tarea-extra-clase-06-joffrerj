@@ -1,0 +1,29 @@
+1. Inicio
+2. notasBolivar(10), i[0-n]     contador, i[0-n]
+3. notasSur(10), i[0-n]     contador, i[0-n]
+4. sumaBolivar, i[0-n]
+5. sumaSur, i[0-n]
+6. suma, i[0-n]
+7. promedioBolivar, d[0-n]
+8. promedioSur, d[0-n]
+9. promedio, d[0-n]
+10. notasBolivar <-- [15, 16.5, 17, 19, 20, 19, 10, 16.4, 15.1, 10]
+11. notasSur <-- [14, 11.5, 17.2, 18, 19, 17, 20, 19, 19.1, 8]
+12. sumaBolivar <-- 0
+13. Mientras contador < 10 entonces
+14.      sumaBolivar <-- sumaBolivar + notas[contador]
+15.      contador <-- contador +1
+16. FinMientras
+17. promedioBolivar <-- sumaBolivar/10
+18. sumaSur <-- 0
+19. Mientras contador < 10 entonces
+20.      sumaSur <-- sumaSur + notas[contador]
+21.      contador <-- contador + 1
+22. FinMientras
+23. promedioSur <-- sumaSur/10
+24. suma <-- promedioBolivar + promedioSur
+25. promedio <-- suma/2
+26. << El promedio del colegio Bolivar es: “,promedioBolivar
+27. << El promedio del colegio Sur es: “ ,promedioSur
+28. << El promedio de ambos colegios es: “” ,promedio
+29. Fin
