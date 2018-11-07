@@ -1,0 +1,15 @@
+1. Inicio
+2. edades(10), i[0-n]; contador, i[0-n] <-- 0
+3. edadesvalidas(n), i[0-n]
+4. suma, i[0-n]
+5. promedio, d[0-n]
+6. edades <-- [10,18,19,11,20,21,16,15,11,12]
+7. suma <-- 0
+8. Mientras edades >= 16 entonces
+9.     suma <-- suma + edades
+10.      edadesvalidas <-- edadesvalidas+1
+11. FinMientras
+12. promedio <-- suma/edadesvalidas
+13. << El promedio de las edades mayores a 16 es: “, promedio
+14. Fin
+
