@@ -1,0 +1,31 @@
+1. Inicio
+2. notasBolivar(10), i[0-n]     contador, i[0-n]
+3. notasSur(10), i[0-n]     contador, i[0-n]
+4. notasvalidasBolivar, i[0-n]     contador, i[0-n]
+5. notasvalidasSur, i[0-n]
+6. sumaBolivar, i[0-n]
+7. sumaSur, i[0-n]
+8. promedioBolivar, d[0-n]
+9. promedioSur, d[0-n]
+10. notasBolivar <-- [15, 16.5, 17, 19, 20, 19, 10, 16.4, 15.1, 10]
+11. notasSur <-- [14, 11.5, 17.2, 18, 19, 17, 20, 19, 19.1, 8]
+12. Hacer sumaBolivar
+13.      Mientras contador < 10 entonces
+14.      Si notasBolivar >= 16.5
+15.      sumaBolivar <-- sumaBolivar + notasBolivar[contador]     
+16.      contador <-- contador + 1
+17.      notasvalidasBolivar <-- contador + 1
+18.      FinMientras
+19. promedioBolivar <-- sumaBolivar/notavalidasBolivar
+20. Hacer sumaSur
+21.      Mientras contador < 10 entonces
+22.      Si notasSur >= 16.5
+23.      sumaSur <-- sumaSur + notasSur[contador]     
+24.      contador <-- contador + 1
+25.      notasvalidasSur <-- contador + 1
+26.      FinMientras
+27. Si promedioBolivar > promedioSur entonces
+28. << El colegio con mejor promedio es Bolivar, con un promedio de: “, promedioBolivar
+29. Sino 
+30. << El colegio con mejor promedio es Sur, con un promedio de: “, promedioSur
+31. Fin
